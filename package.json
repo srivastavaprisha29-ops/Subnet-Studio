@@ -1,0 +1,13 @@
+{
+  "name": "subnet-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive IPv4 subnetting practice lab",
+  "type": "module",
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
