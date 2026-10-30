@@ -14,7 +14,7 @@ The hosted lab is restricted to its owner through ChatGPT sign-in. This public r
 - A custom-address bit explorer with a /8–/30 prefix slider.
 - Equal Class B subnet splitting, inclusive ranges across octets, CIDR alignment, and small VLSM allocations.
 - Seven familiar examples, generated practice by topic, hints, progressive worked steps, and immediate answer feedback.
-- A quick reference and browser-local solved count and streak.
+- A quick reference and browser-local solved count and streak. Streaks count questions completed without submitted mistakes, hints, or revealed steps.
 
 Examples include `192.168.1.10/24`, `167.199.170.82/27`, dividing a Class B `/16` into four `/18` subnets, and counting `146.102.29.0` through `146.102.32.255`.
 
@@ -28,7 +28,7 @@ cd Subnet-Studio
 python3 -m http.server 8000 --bind 127.0.0.1 --directory dist
 ```
 
-Open <http://localhost:8000>. Serve the files over HTTP rather than opening `index.html` directly, because the app uses ES modules. Use the server root, not a nested subdirectory; the HTML uses root-relative asset URLs.
+Open <http://localhost:8000>. Serve the files over HTTP rather than opening `index.html` directly, because the app uses ES modules. Assets use relative paths, so the app also works beneath a hosting subdirectory.
 
 ## Validation
 
