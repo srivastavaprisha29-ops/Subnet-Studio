@@ -2,7 +2,7 @@
 
 An interactive IPv4 subnetting practice lab for Computer Networks preparation. Work through a question, check answers as you type, and reveal the reasoning one step at a time.
 
-[Open the public practice lab](https://subnet-studio-prisha-3ec21a.srivastavaprisha29.chatgpt.site/)
+[Open the public practice lab](https://srivastavaprisha29-ops.github.io/Subnet-Studio/)
 
 The public demo opens directly to a practice question. Anyone with the link can use it without an account.
 
