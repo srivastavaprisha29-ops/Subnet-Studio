@@ -2,9 +2,9 @@
 
 An interactive IPv4 subnetting practice lab for Computer Networks preparation. Work through a question, check answers as you type, and reveal the reasoning one step at a time.
 
-[Open the private hosted lab](https://subnet-studio-prisha-3ec21a.saltylake.chatgpt.site)
+[Open the public practice lab](https://subnet-studio-prisha-3ec21a.saltylake.chatgpt.site)
 
-The hosted lab is restricted to its owner through ChatGPT sign-in. This public repository contains the application source; it does not grant access to that deployment. Access control is provided by the hosting platform, not by the static application. Hosting these files elsewhere requires that host's own access controls if privacy is needed.
+The public demo opens directly to a practice question. Anyone with the link can use it without an account.
 
 ## Features
 
@@ -58,4 +58,4 @@ For conventional IPv4 subnets, a prefix of `p` leaves `32 − p` host bits. Tota
 
 Class B questions explicitly start at `/16`; ordinary CIDR questions use their stated prefix. Range questions distinguish a smallest covering CIDR block from an exact CIDR range. VLSM questions use largest-first allocation with the smallest fitting conventional subnet.
 
-Progress is saved in `localStorage` for the current browser and origin, without cross-device sync. The app has no external assets, analytics, application API calls, or backend dependencies. No public web deployment is configured by this repository.
+Progress is saved in `localStorage` for the current browser and origin, without cross-device sync. The app has no external assets, analytics, application API calls, or backend dependencies.
